@@ -72,6 +72,7 @@ public void venderProduto(int id) {
 
 public ArrayList<ProdutosDTO> listarProdutosVendidos() {
     ArrayList<ProdutosDTO> vendidos = new ArrayList<>();
+    
     try {
         conn = new conectaDAO().connectDB();
         String sql = "SELECT * FROM produtos WHERE status = 'Vendido'";
