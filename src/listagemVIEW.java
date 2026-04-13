@@ -153,6 +153,7 @@ public class listagemVIEW extends javax.swing.JFrame {
     }//GEN-LAST:event_btnVendasActionPerformed
 
     private void btnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarActionPerformed
+        
         this.dispose();
         new cadastroVIEW().setVisible(true);
     }//GEN-LAST:event_btnVoltarActionPerformed
