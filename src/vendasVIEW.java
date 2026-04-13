@@ -13,6 +13,7 @@ public class vendasVIEW extends javax.swing.JFrame {
     }
 
     private void initComponents() {
+        
         jScrollPane1 = new javax.swing.JScrollPane();
         listaVendas = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
